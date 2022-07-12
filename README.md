@@ -1,6 +1,3 @@
-# PalomaPigeonSoftwareSetUp
-Paloma Pigeon Software Set Up Guide
-
 # Paloma Testnet-6 Pigeon Relayer Software Set Up Guide
 
 ![Logo!](assets/paloma.png)
@@ -12,7 +9,8 @@ Paloma Pigeon Software Set Up Guide
 For Crosschain software engineers that want simultaneous control of mulitiple smart contracts, on any blockchain, Paloma is decentralized and consensus-driven message delivery, fast state awareness, low cost state computation, and powerful attestation system that enables scaleable, crosschain, smart contract execution with any data source.
 
 ## Opening an Alchemy Account
-* Yükleme işlemine geçmeden önce [Alchemy](https://alchemy.com/?r=zc3NjI5NzM1NzMxN)'den bir hesap oluşturup ETH Mainnet App oluşturuyoruz. Burada `View Key` bölümünden `https` ile başlayan linkimizi alıyoruz ve kurulum sırasında Alchemy linki geçen yerde kullanmak üzere bir txt dosyasına kaydediyoruz.
+* Before proceeding with the installation process, we create an account from [Alchemy](https://alchemy.com/?r=zc3NjI5NzM1NzMxN) and create the ETH Mainnet App. Here, we get our link starting with https from the View Key section and save it to a txt file to use where the Alchemy link is mentioned during installation.
+
 
 ## Pigeon Install
 
@@ -67,7 +65,7 @@ palomad keys add "$VALIDATOR" --recover
 palomad keys add "$WALLET" --recover 
 ```
 
-Yukarıdaki kodu girdiğinizde şifrenizi girdiktensonra şöyle bir çıktı alacaksınız `override the existing name VALIDATOR_ADINIZ [y/N]:` buna yes yani y diyerek devam ediyoruz. Ardından sizden > `Enter your bip39 mnemonic` cüzdanınıza ait menemonicleri isteyecek onları yazıp işleme devam ediyoruz.
+When you enter the code above, after entering your password, you will receive an output like `override the existing name VALIDATE_NAME [y/N]:` we continue by saying yes, that is y. Then it will ask you for the menemonics of your > `Enter your beep39 mnemonic` wallet, write them and continue the process.
 
 ### Set The VALIDATOR env Variable
 
@@ -155,7 +153,7 @@ WantedBy=multi-user.target
 EOT
 ```
 
-### Restar Pigeon
+### Restart Pigeon
 
 ```shell
 systemctl daemon-reload
