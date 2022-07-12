@@ -1,6 +1,6 @@
 # Paloma Testnet-6 Pigeon Relayer Software Set Up Guide
 
-![Logo!](assets/paloma.png)
+![image](https://user-images.githubusercontent.com/102043225/178546676-4389d9c6-851d-40e0-a1f7-3a797ae19064.png)
 
 # Pigeon
 
